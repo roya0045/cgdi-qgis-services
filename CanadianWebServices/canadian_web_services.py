@@ -446,11 +446,11 @@ class CanadianWebServices(object):
 	# setTableWidgetBehaviour: CWS -> None
 	def setTableWidgetBehaviour(self):
 		# set row and column sizes and lock them
-		self.dlg.tableWidget.setColumnWidth(0, 110)
+		self.dlg.tableWidget.setColumnWidth(0, 210)
 		self.dlg.tableWidget.setColumnWidth(1, 110)
-		self.dlg.tableWidget.setColumnWidth(2, 207)
-		self.dlg.tableWidget.setColumnWidth(3, 86)
-		self.dlg.tableWidget.horizontalHeader().setSectionResizeMode(QHeaderView.Fixed)
+		self.dlg.tableWidget.setColumnWidth(2, 158)
+		self.dlg.tableWidget.setColumnWidth(3, 60)
+		self.dlg.tableWidget.horizontalHeader().setSectionResizeMode(QHeaderView.Stretch)
 		self.dlg.tableWidget.verticalHeader().setSectionResizeMode(QHeaderView.Fixed)
 		
 		#self.dlg.tableWidget.resizeRowsToContents()
